@@ -1,20 +1,11 @@
-package Controlflow;
 import java.util.Scanner;
 
-
-/*Part 1: Commission Calculator
-Using IntelliJ, write a Java app that takes numerical input from a user
-The app should calculate commission based on this chart used by the retail store.
-Sales Range	Commission
-above 10000$	30%
-5001 - 9999$	20%
-1001 - 4999$	10%
-below 1000$	N/A */
-
-public class Commission 
-{
-    public static void main(String Args[])
+public class App {
+    public static void main(String[] args) throws Exception 
     {
+
+        System.out.println("Hello, World!");
+        
         Scanner sc= new Scanner(System.in);
        
         System.out.println("Enter the sales amount for which we have to calculate commission ");
@@ -71,4 +62,5 @@ public class Commission
     {
         return (sales_amount*com)/100;
     }
+    
 }
