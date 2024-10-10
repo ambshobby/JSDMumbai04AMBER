@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MutiplicationTable",
+            "request": "launch",
+            "mainClass": "Loops.MutiplicationTable",
+            "projectName": "java single program_c3ab895b"
+        },
+        {
+            "type": "java",
             "name": "MovieDiscount",
             "request": "launch",
             "mainClass": "Controlflow.MovieDiscount",
