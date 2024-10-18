@@ -16,6 +16,8 @@ public class App {
        SalesRep s3=new SalesRep("C", "sss", 10, 30, 730, 05, 30000, 2, 30000);
     
        SalesManager SM=new SalesManager("Bhayankar", "sss", 10, 30, 730, 05, 30000, 2, 30000,s1.getSalesMade()+s2.getSalesMade()+s3.getSalesMade());
+       SM.addSalesRep(1, s1);
+        salesManager.addSalesRep(2, s2);
        SM.calculateComission();
     }   
 }
