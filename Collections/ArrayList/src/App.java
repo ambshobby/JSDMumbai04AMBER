@@ -7,15 +7,31 @@ public class App {
     {
             System.out.println("Hello, World!");
             ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
-            list.add("Ravi");//Adding object in arraylist  
+            list.add("Ravi");//Adding object in arraylist 
+            System.out.println("Array list status");
+            printlist(list); 
             list.add("Vijay");  
+            System.out.println("Array list status");
+            printlist(list); 
             list.add("Ravi");  
+            System.out.println("Array list status");
+            printlist(list); 
             list.add("Ajay");  
-            //Traversing list through Iterator  
-            Iterator itr=list.iterator();  
-            while(itr.hasNext())
-            {  
-            System.out.println(itr.next());  
-            }
+            System.out.println("Array list status");
+            printlist(list); 
+
+            
+            
     }
+    public static void  printlist(ArrayList a)
+    {
+        //Traversing list through Iterator  
+        
+        Iterator itr=a.iterator();  
+        while(itr.hasNext())
+        {  
+        System.out.println(itr.next());  
+        }
+    }
+
 }
