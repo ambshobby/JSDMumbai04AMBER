@@ -16,7 +16,7 @@
         System.out.println("Input String cannot be parsed to Integer.");
     }
     return false;
-}*/
+}
 class FloatException <T>
 { private T value;
 
@@ -34,10 +34,10 @@ class FloatException <T>
 
         // }
     }
-}
+}*/
 public class App {
     public static <T> void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        FloatException <T> obj1=new FloatException(1.2);
+        // FloatException <T> obj1=new FloatException(1.2);
     }
 }

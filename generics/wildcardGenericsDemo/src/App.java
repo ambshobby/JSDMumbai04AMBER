@@ -72,7 +72,13 @@ public class App {
         Emp_list.add(new Employee("Mahesh employee"));
         PrintBaba(Emp_list);
 
-
+        if(Emp_list.contains(Emp_list.get(0)))
+        {
+            System.out.println("Jingalalalalfkjsdh mila hai");
+        }
+        // List<? extends person> pall=new ArrayList<? extends person>();
+        // pall.addall(stud_list);
+        // pall.addall(Emp_list);
 
     }
     public static void PrintBaba(List<? extends person> templist)
