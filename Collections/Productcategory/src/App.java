@@ -19,7 +19,8 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        while (true) {
+        while (true) 
+        {
             System.out.println("\n1. Add Category");
             System.out.println("2. Add Product to Category");
             System.out.println("3. Display Categories and Products");
