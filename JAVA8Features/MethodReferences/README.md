@@ -1,24 +1,3 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-
-
-Certainly! Here’s a comparative example in Java illustrating the use of a regular method, a lambda expression, and a method reference. I’ll also include the advantages and disadvantages of each approach.
 
 ### Example Scenario
 We'll create a simple class with a method to compare two strings and sort a list of names.

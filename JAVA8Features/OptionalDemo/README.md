@@ -1,4 +1,4 @@
-Sure! The `Optional` class in Java is a container object used to represent the presence or absence of a value. It helps avoid `NullPointerExceptions` and encourages better handling of absent values. Here’s a demonstration of how to use the `Optional` class, including creation, common methods, and examples.
+The `Optional` class in Java is a container object used to represent the presence or absence of a value. It helps avoid `NullPointerExceptions` and encourages better handling of absent values. Here’s a demonstration of how to use the `Optional` class, including creation, common methods, and examples.
 
 ### Creating an Optional
 
