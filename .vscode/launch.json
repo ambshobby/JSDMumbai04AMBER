@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MumbaiamberApplication",
+            "request": "launch",
+            "mainClass": "com.demomumbai.mumbaiamber.MumbaiamberApplication",
+            "projectName": "java single program_c3ab895b"
+        },
+        {
+            "type": "java",
+            "name": "MumbaiamberApplication",
+            "request": "launch",
+            "mainClass": "MumbaiamberApplication",
+            "projectName": "java single program_c3ab895b"
+        },
+        {
+            "type": "java",
             "name": "MutiplicationTable",
             "request": "launch",
             "mainClass": "Loops.MutiplicationTable",

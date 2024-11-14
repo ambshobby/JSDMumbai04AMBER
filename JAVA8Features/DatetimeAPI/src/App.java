@@ -10,13 +10,14 @@ public class App {
 
         // Get current date
         Date now = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        //SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-DD");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MMM.dd G 'at' HH:mm:ss ");
         System.out.println("Current Date: " + sdf.format(now));
 
         // Adding days using Calendar
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(now);
-        calendar.add(Calendar.DAY_OF_MONTH, 5); // Add 5 days
+        calendar.add(Calendar.DAY_OF_MONTH, 20); // Add 5 days
         Date newDate = calendar.getTime();
         System.out.println("Date after adding 5 days: " + sdf.format(newDate));
 
@@ -28,7 +29,7 @@ public class App {
         System.out.println("Current Date: " + localDate);
 
         // Adding days using LocalDate
-        LocalDate newLocalDate = localDate.plusDays(5); // Add 5 days
+        LocalDate newLocalDate = localDate.plusDays(365); // Add 5 days
         System.out.println("Date after adding 5 days: " + newLocalDate);
     }
 }
